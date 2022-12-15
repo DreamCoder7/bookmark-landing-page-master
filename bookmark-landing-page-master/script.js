@@ -59,7 +59,6 @@ accordion.addEventListener("click", function (e) {
     .querySelector(`.answer-${accordionBtn.dataset.icon}`)
     .classList.remove("hidden-answer");
 
-  // TODO: IF there is a better way of doing this (Impelement)
   answer.forEach((el) => {
     if (!el.classList.contains("hidden-answer")) {
       icon.forEach((e) => {
